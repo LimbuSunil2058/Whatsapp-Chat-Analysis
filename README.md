@@ -1,12 +1,10 @@
-https://whatsapp-chat-analysis-3rxrchqhawjiysoqgs2kyj.streamlit.app/
 # 📊 WhatsApp Chat Analyzer
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://whatsapp-chat-analysis-3rxrchqhawjiysoqgs2kyj.streamlit.app/)
-
-A comprehensive data analysis tool built with **Python** and **Streamlit** that provides deep insights into your WhatsApp conversations. Upload your chat export file and visualize statistics, sentiment, user activity, and more.
+A powerful **WhatsApp Chat Analysis Web App** built using **Python, Streamlit, NLP, and Data Visualization**.  
+This project allows you to upload exported WhatsApp chat files and generate deep insights such as activity trends, sentiment analysis, emoji usage, response time, and word frequency.
 
 ## 🚀 Live Demo
-Check out the live application here: **[WhatsApp Chat Analyzer](https://whatsapp-chat-analysis-3rxrchqhawjiysoqgs2kyj.streamlit.app/)**
+Check out the live application here:  **[Click Here](https://whatsapp-chat-analysis-3rxrchqhawjiysoqgs2kyj.streamlit.app/)**
 
 ---
 
@@ -42,11 +40,25 @@ Check out the live application here: **[WhatsApp Chat Analyzer](https://whatsapp
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** [Streamlit](https://streamlit.io/)
-* **Data Manipulation:** [Pandas](https://pandas.pydata.org/)
-* **Visualization:** [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [WordCloud](https://github.com/amueller/word_cloud)
-* **NLP & Text Processing:** [NLTK](https://www.nltk.org/), [Emoji](https://pypi.org/project/emoji/), [URLExtract](https://pypi.org/project/urlextract/)
+**Frontend**
+- Streamlit
 
+**Backend & Analysis**
+- Python
+- Pandas
+- Regex
+
+**Visualization**
+- Matplotlib
+- Seaborn
+- WordCloud
+
+**NLP**
+- NLTK (VADER Sentiment Analysis)
+- Emoji Processing
+
+**Utilities**
+- URLExtract
 ---
 
 ## 📥 How to Use
