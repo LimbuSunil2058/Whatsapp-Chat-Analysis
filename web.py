@@ -16,15 +16,17 @@ def preprocess(chat):
     data = []
     android_pattern = r"(\d{2}/\d{2}/\d{4}),\s(\d{2}:\d{2})\s-\s([^:]+):\s(.*)" 
     iphone_pattern = r"\[(\d{2}/\d{2}/\d{4}), (\d{2}:\d{2}:\d{2})\] ([^:]+): (.*)"  
-
+    match_found=False
     for line in chat.splitlines():
-        match = re.match(android_pattern, line)
-        if match:
-            data.append(match.groups())
+        combined_pattern = re.match(android_pattern, line) or re.match(iphone_pattern,line)
+        if combined_pattern:
+            data.append(combined_pattern.groups())
+            match_found=True
+    if not match_found:
+            st.warning(f"Unrecognized WhatsApp format")
+            st.stop()   
+        
 
-        match=re.match(iphone_pattern,line)
-        if match:
-            data.append(match.groups())
 
     df = pd.DataFrame(data, columns=["Date", "Time", "User", "Messages"])
 
