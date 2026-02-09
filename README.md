@@ -5,6 +5,7 @@ This project allows you to upload exported WhatsApp chat files and generate deep
 
 ## 🚀 Live Demo
 Check out the live application here: [Click Here](https://whatsapp-chat-analysis-3rxrchqhawjiysoqgs2kyj.streamlit.app/)
+https://whatsapp-chat-analysis-3rxrchqhawjiysoqgs2kyj.streamlit.app/
 ---
 
 ## 🌟 Features
