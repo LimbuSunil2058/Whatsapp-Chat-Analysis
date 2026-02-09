@@ -4,8 +4,7 @@ A powerful **WhatsApp Chat Analysis Web App** built using **Python, Streamlit, N
 This project allows you to upload exported WhatsApp chat files and generate deep insights such as activity trends, sentiment analysis, emoji usage, response time, and word frequency.
 
 ## 🚀 Live Demo
-Check out the live application here:  **[Click Here]([https://whatsapp-chat-analysis-3rxrchqhawjiysoqgs2kyj.streamlit.app/])**
-
+Check out the live application here: [Click Here](https://whatsapp-chat-analysis-3rxrchqhawjiysoqgs2kyj.streamlit.app/)
 ---
 
 ## 🌟 Features
